@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    /* width: 1588px; */
+    width: 100%;
+    height: 982px;
+    margin: 0 auto;
+}
+.header__nav1{
+    width: 100%;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    gap: 1218px;
+    padding-left: 60px;
+    background-color: black;
+    color: white;
+}
+.con{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.58px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    
+}
+.header__nav{
+    width: 100%;
+    height: 888px;
+    background: url(img/Frame\ 36719.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -0px;
+}
+.header__nav2{
+    width: 500px;
+    height: 643px;
+    background-color: rgba(33, 33, 33, 1);
+    border-radius: 24px;
+    margin-top: 80px;
+    margin-left: 171px;
+    position: absolute;
+}
+.nav2__div1{
+    width: 404px;
+    height: 29px;
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.p{
+    color: white;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.nav2__div1 p img{
+    padding-top: 5px;
+}
+.nav2__div2{
+    width: 404px;
+    height: 422px;
+    margin-top: 96px;
+    margin-left: 48px;
+    text-align: center;
+}
+.nav2__div2 h2{
+    color: white;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;    
+}
+.nav2__div2__div3{
+    width: 404px;
+    height: 336px;
+    /* border: 1px solid red; */
+    margin-top: 48px;
+}
+.div2__div3__div4{
+    color: white;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.58px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;   
+    display: flex;
+    gap: 12px;
+}
+.div2__div3__div4 p:first-child{
+    width: 192px;
+    height: 48px;
+    background-color: rgba(66, 66, 66, 1);
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-left: 41px;
+}
+.div2__div3__div4 p:first-child{
+    width: 192px;
+    height: 48px;
+    background-color: rgba(66, 66, 66, 1);
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-left: 41px;
+}
+.div2__div3__div4 p{
+    width: 192px;
+    height: 48px;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-left: 41px;
+}
+.div2__div3__div5{
+    width: 404px;
+    height: 120px;
+    margin-top: 8px;
+}
+.div2__div3__div5 input{
+    width: 404px;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding-left: 24px;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    background-color: rgba(66, 66, 66, 0.232);
+    border: none;
+    color: white;
+}
+.div3__button{
+    width: 404px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 24px;
+    background-color: rgba(239, 64, 15, 1);
+    color: white;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19.8px;   
+}
+.div2__div3__div6{
+    color: rgba(239, 64, 15, 1);
+    text-align: center;
+    display: flex;
+    padding-top: 17px;
+    padding-left: 72px;
+    margin-top: 16px;
+    gap: 10px;
+}
+.div2__div3__div6 p:first-child{
+    color: white;
+}
+
+.toggle-password{
+    position: relative;
+    top: -43px;
+    left: 230px;
+}
